@@ -1,0 +1,14 @@
+int vesselX=200
+int vesselY=700
+int level=0
+void setup(){
+
+}
+
+void draw(){
+
+if(vesselY=0){
+level=level+1
+}
+
+}
