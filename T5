@@ -1,0 +1,8 @@
+//this code turns the blackrgound into black
+
+void setup(){
+background(0);
+}
+void draw(){
+
+}
