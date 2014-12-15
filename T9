@@ -1,0 +1,11 @@
+//this code consists of how we insert the vessel that we have created to our game
+
+PImage img;
+
+void setup(){
+img = loadImage("//here we add the direction of the image");
+}
+
+void draw() {
+image(img,0,0); //those two last numbers are the position of the image at the canvas
+}
