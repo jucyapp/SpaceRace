@@ -1,0 +1,8 @@
+void setup(){
+size(700,300)//we define the canvas
+}
+
+
+void draw(){
+
+}
