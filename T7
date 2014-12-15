@@ -1,0 +1,13 @@
+int a=0;
+void setup(){
+        size(300,300);
+}
+
+void draw(){
+        background(0);
+        ellipse(a,30,10,10);
+a=a+1;
+if(a>300){
+        a=0;}
+        
+}
