@@ -1,0 +1,2 @@
+PImage star;    
+star=loadImage("star.png");
