@@ -1,0 +1,18 @@
+//At this code we start joining pieces of code of T5 and T9
+
+PImage img;
+
+void setup(){
+
+background(0); //this code turns the blackrgound into black
+
+img = loadImage("//Spaceship.png");
+
+}
+
+
+void draw() {
+
+image(img,450,5); //those two last numbers are the position of the image at the canvas
+
+}
