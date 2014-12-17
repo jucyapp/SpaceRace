@@ -1,0 +1,21 @@
+int a=400;
+int b=400;
+int c=0;
+int d=255;
+int e=0;
+
+void setup(){
+        size(400,400);
+        }
+    
+        void draw(){   
+            stroke(c,d,e);
+            line(0,a,20,b);
+            a=a-1/4;
+            b=b-1/4;
+            c=c+1/3;
+        if(c>255)
+        d=d-1/3;
+    
+    }
+
