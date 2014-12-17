@@ -1,0 +1,45 @@
+int Xmole=225;
+
+int Ymole=900;
+
+
+
+
+void setup(){
+
+ size(450,900);
+
+ background(0);   
+
+    
+
+    }
+
+    
+
+    
+
+void draw){
+
+    
+
+ellipse(Xmole,Ymole,20,20);
+
+
+
+
+if(Wpressed){
+
+ Ymole=Ymole-1;   
+
+    }
+
+    
+
+if(Spressed){
+
+ Ymole=Ymole+1; 
+
+    }
+
+    }
