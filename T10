@@ -1,45 +1,26 @@
-int Xmole=225;
-
-int Ymole=900;
-
-
-
-
-void setup(){
-
- size(450,900);
-
- background(0);   
-
-    
-
+int y=300;
+int z=550;
+PImage photo;
+void setup(){ 
+    size(600,600); 
+    photo=loadImage("spaceship.png");
     }
+    void draw(){  
+background(0);  
+image(photo,y,z);  
+}
+void keyPressed(){
+if (key == CODED){     
+if (keyCode == DOWN){
+          z=z+4;
+          
+          
+if (key == CODED){     
+    if (keyCode == UP){      
+        z=z-4;     
+        }    
+        } 
+        }   
+        }     
+        }
 
-    
-
-    
-
-void draw){
-
-    
-
-ellipse(Xmole,Ymole,20,20);
-
-
-
-
-if(Wpressed){
-
- Ymole=Ymole-1;   
-
-    }
-
-    
-
-if(Spressed){
-
- Ymole=Ymole+1; 
-
-    }
-
-    }
